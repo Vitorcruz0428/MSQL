@@ -1,0 +1,80 @@
+insert into cliente (nome ,email ,turma ,telefone, datNasc) VALUES
+
+('Gabriel Sousa','sousasete7@gmail.com','1C','11-665232','2004-09-24'),
+
+('Amanda Rodrigues','rodrigues44@gmail.com','1C','11-664873','2005-07-05'),
+
+('Fernando Silva','silvaxis00@gmail.com','1C','11-666306',','2005-10-14'),
+
+('Bernardo Gomes','gomes58@gmail.com','1C','11-6684563','2004-03-18'),
+
+('William Dones','don99@gmail.com','1C','11-664123','2005-6-16'),
+
+('Mateus Fernandez','fernandez@gmail.com','1C','11-664519','2005-12-7'),
+
+('Lucas Blitz','blitz04@gmail.com','1C','11-667931','2005-11-17'),
+
+('Pedro Douglas','pdouglas@gmail.com','1C','11-661937','2005-05-15'),
+
+('Gabriel Nunes','nunes@gmail.com','1C','11-661542','2005-2-19'),
+
+('Rafael Santos','santos@gmail.com','1C','11-6663719','2005-05-13');
+
+
+
+insert into livro (livro, autor, editora, genero) VALUES
+
+('Harry Potter e a Pedra Filosofal',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e a Câmara Secreta',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e o Prisioneiro de Azkaban',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e o Cálice de Fogo',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e a Ordem da Fênix','Jeff Kinney','Rocco','comédia'),
+
+('Harry Potter e o Enigma do Príncipe',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e as Relíquias da Morte',' J.K. Rowling','Rocco','fantasia'),
+
+('Harry Potter e a Criança Amaldiçoada ',' J.K. Rowling','Rocco','fantasia'),
+
+('Diário de um banana 1','Jeff Kinney','V&R','comédia'),
+
+('Diário de um banana 2','Jeff Kinney','V&R','comédia');
+
+
+insert into bibliotecario (nome ,cidade ,email ,cpf ,datNasc,telefone) VALUES
+
+('Paulo','Rib.Pires','paulo@gmail.com','555.444.333-21','1980-03-09',11-555550'),
+
+('Fernando','Maua',fernando@gmail.com','333.444.555-31','1979-04-10',11-555553'),
+
+('Adonis','Maua','adonis@gmail.com','444.333.555-11','1990-05-10',11-555556'),
+
+('Ronaldo','Rib.Pires','ronaldo@gmail.com','555.333.444-51','1980-06-12',11-555559');
+
+
+
+insert into emprestimo_devolucao (codCli ,codEmpDev ,data_devol ,data_emprest ,codBib) VALUES
+
+('1','1','2020-05-11','2020-04-11','1'),
+
+('4','4','2020-03-11','2020-02-11','2'),
+
+('7','6','2020-01-11','2020-01-11','3'),
+
+('5','3','2020-05-28','2020-04-28','4'),
+
+('1','8','2020-06-28','2020-05-28','5'),
+
+('1','3','2020-07-28','2020-06-28','6'),
+
+('4','2','2020-08-11','2020-03-11','7'),
+
+('3','7','2020-07-28','2020-03-28','8'),
+
+('5','5','2020-06-24','2020-02-24','5'),
+
+('8','7','2020-04-11','2020-03-11','7');
